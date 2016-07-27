@@ -5,7 +5,9 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.AnticipateInterpolator;
+
+import com.androidpractice.demo.activity.lifecycle.ALifeCycleActivity;
+import com.androidpractice.demo.activity.params.FirstActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,7 +26,14 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.btnShowActivityLifeCycle).setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                startActivity(new Intent(MainActivity.this,LifeCircleActivity.class));
+                startActivity(new Intent(MainActivity.this,ALifeCycleActivity.class));
+            }
+        });
+
+        findViewById(R.id.btnPutParamsBetweenAty).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, FirstActivity.class));
             }
         });
     }

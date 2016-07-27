@@ -16,7 +16,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".AnotherActivity" />
-        <activity android:name=".LifeCircleActivity"></activity>
+        <activity android:name=".activity.lifecycle.ALifeCycleActivity" />
+        <activity
+            android:name=".activity.lifecycle.BLifeCycleActivity"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" />
+        <activity android:name=".activity.params.FirstActivity" />
+        <activity android:name=".activity.params.SecondActivity" />
+        <activity android:name=".activity.params.ThirdActivity" />
+        <activity android:name=".activity.params.FourthActivity" />
+        <activity android:name=".activity.params.FifthActivity"></activity>
     </application>
 
 </manifest>
