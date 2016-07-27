@@ -21,5 +21,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://blogme.ruierhd.com")));
             }
         });
+
+        findViewById(R.id.btnShowActivityLifeCycle).setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(MainActivity.this,LifeCircleActivity.class));
+            }
+        });
     }
 }
