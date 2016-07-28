@@ -22,4 +22,46 @@
         android:layout_height="wrap_content"
         android:text="Activity参数传递"
         android:id="@+id/btnPutParamsBetweenAty" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toast提示"
+        android:id="@+id/btnDisplayToast" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="销毁活动"
+        android:id="@+id/btnFinishAty" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用隐式Intent"
+        android:id="@+id/btnYsIntent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用隐式intent打开浏览器"
+        android:id="@+id/btnOpenUri" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="隐式Intent打开Uri"
+        android:id="@+id/btnOpenUri2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回数据"
+        android:id="@+id/btnReturnResult" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拨打电话"
+        android:id="@+id/btnCallTo" />
 </LinearLayout>

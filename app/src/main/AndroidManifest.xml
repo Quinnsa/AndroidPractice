@@ -24,7 +24,28 @@
         <activity android:name=".activity.params.SecondActivity" />
         <activity android:name=".activity.params.ThirdActivity" />
         <activity android:name=".activity.params.FourthActivity" />
-        <activity android:name=".activity.params.FifthActivity"></activity>
+        <activity android:name=".activity.params.FifthActivity" />
+        <activity android:name=".activity.intent.IntentActivity">
+            <intent-filter>
+
+                <!-- 可指定一个action 多个category -->
+                <action android:name="com.androidpractice.demo.intent.Action_START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.androidpractice.demo.intent.MY_CATEGORY" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.intent.UriIntentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.returnResult.FirstActivity" />
+        <activity android:name=".activity.returnResult.SecondActivity"></activity>
     </application>
 
 </manifest>

@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Demo.iml" filepath="$PROJECT_DIR$/Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitybest/activitybest.iml" filepath="$PROJECT_DIR$/activitybest/activitybest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activityforresult/activityforresult.iml" filepath="$PROJECT_DIR$/activityforresult/activityforresult.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menu/menu.iml" filepath="$PROJECT_DIR$/menu/menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uiwidget/uiwidget.iml" filepath="$PROJECT_DIR$/uiwidget/uiwidget.iml" />
     </modules>
   </component>
 </project>
